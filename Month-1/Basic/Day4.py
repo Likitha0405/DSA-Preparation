@@ -44,3 +44,4 @@ class Sort:
 a = Sort()
 print(a.isSorted([1,2,2,3,4]))
 print(a.isSorted([23,46,100,34]))
+print(a.isSorted([12,99,66,90]))
