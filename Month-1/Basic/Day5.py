@@ -12,3 +12,13 @@ class Solution:
         return arr[k-1]
 s = Solution()
 print(s.kthSmallest([7,10,4,6,12],2))
+
+#manual reversing using 2 pointers
+arr = [1,2,3,4,5]
+left = 0
+right = len(arr)-1
+while left<right:
+  arr[left] , arr[right] = arr[right] , arr[left]
+  left += 1
+  right -= 1
+print(arr)
