@@ -22,3 +22,14 @@ while left<right:
   left += 1
   right -= 1
 print(arr)
+
+#count frequency of elements using dictionary
+arr1 = [1,2,2,1,1,3,3,3,3]
+count ={}
+
+for x in arr1:
+    if x in count:
+        count[x] += 1
+    else:
+        count[x] = 1
+print(count)
