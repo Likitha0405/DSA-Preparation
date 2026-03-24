@@ -10,3 +10,4 @@ Day 5 - 1 geeksforgeeks problem , and reversing an array using 2 pointers techni
 Day 6 - Searching- linear and binary search cocepts
 Day 7 - first occurence of an element concept(Modified Binary Search).
 Day 8 - Last occurence of an element concept
+Day 9 - count occurences concept in linear and binary search.
